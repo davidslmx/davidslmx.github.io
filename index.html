@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dev Portfolio | Coding with Style</title>
+    <title>Esteban Portfolio</title>
     <link rel="stylesheet" href="styles.css">
     <script src="script.js"></script>
 </head>
@@ -14,14 +14,15 @@
     <header>
         <div class="container header-content">
             <div class="logo">
-                <div>Esteban<span> Santillan</span></div>
+                <div>Esteban <span>Santillan</span></div>
             </div>
             <nav>
                 <ul>
                     <li><a href="#home">Home</a></li>
                     <li><a href="#about">About</a></li>
-                    <li><a href="#skills">Skills</a></li>
                     <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
         </div>
@@ -31,16 +32,18 @@
     <section class="hero" id="home">
         <video autoplay muted loop id="hero-video">
             <source src="/assets/Binary-background.mp4" type="video/mp4">
-            Tu navegador no soporta videos en HTML5.
         </video>
         <div class="container hero-content">
-            <h1>Hello, I'm <span style="color: var(--accent);">Esteban Santillan</span></h1>
-            <h2>I'm a <span class="typed-text">Full Stack Developer</span></h2>
+            <h1>print("Hello <span style="color: var(--accent);">Friend</span>")</h1>
+            <h2>I'm a <span class="typed-text">Full Stack Java Developer</span></h2>
             <div>
                 <a href="#projects" class="btn">View My Work</a>
             </div>
         </div>
     </section>
+
+
+
 
     <!-- About Section -->
     <section id="about">
@@ -49,10 +52,17 @@
                 <h2>About Me</h2>
             </div>
             <div class="about-content">
+                <div class="about-img">
+                    <img src="/assets/profile-foto.jpg" alt="Esteban Santillan">
+                </div>
                 <div class="about-text">
-                    <p>Hello! I'm a Junior Java Full-Stack Developer. Passionate about technology and software development, with previous experience working with computers in technical environments, which has allowed me to develop problem-solving skills and proficiency in hardware/software management.</p>
-
-                    <p>Motivated by continuous learning, I seek opportunities to apply and enhance my development knowledge. I am characterized by my adaptability, teamwork skills, and commitment to growth.</p>
+                    <p>Hello! I'm a Junior Java Full-Stack Developer. Passionate about technology and software
+                        development, with previous experience working with computers in technical environments, which
+                        has allowed me to develop problem-solving skills and proficiency in hardware/software
+                        management.</p>
+                    <p>Motivated by continuous learning, I seek opportunities to apply and enhance my development
+                        knowledge.</p>
+                    <p>I am characterized by my adaptability, teamwork skills, and commitment to growth.</p>
                 </div>
             </div>
         </div>
@@ -67,11 +77,12 @@
             <div class="projects-container">
                 <div class="project-card">
                     <div class="project-img">
-                        <img src="/assets/projects1-elestudiante.jpg" alt="Project 1">
+                        <img src="/assets/proyecto-estudiante.png" alt="Project 1">
                     </div>
                     <div class="project-content">
                         <h3>El Estudiante</h3>
-                        <p>I developed a modern and functional website for a restaurant that needed an attractive digital presence.</p>
+                        <p>I developed a modern and functional website for a restaurant that needed an attractive
+                            digital presence.</p>
                         <div class="project-tags">
                             <span class="project-tag">Responsive Design</span>
                             <span class="project-tag">Interactive Menu</span>
@@ -93,27 +104,27 @@
             <div class="section-title">
                 <h2>My Skills</h2>
             </div>
-            
+
             <div class="skills-container">
                 <div class="skill-card">
                     <h3>Backend Development</h3>
                     <div>
-                        
-                    <div>
-                        <p>Java</p>
-                        <div class="progress-bar">
-                            <div class="progress" style="width: 50%;"></div>
+
+                        <div>
+                            <p>Java</p>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 50%;"></div>
+                            </div>
                         </div>
-                    </div>
                         <p>Node.js</p>
                         <div class="progress-bar">
-                            <div class="progress" style="width: 50%;"></div>
+                            <div class="progress" style="width: 70%;"></div>
                         </div>
                     </div>
                     <div>
                         <p>SQL/NoSQL</p>
                         <div class="progress-bar">
-                            <div class="progress" style="width: 50%;"></div>
+                            <div class="progress" style="width: 30%;"></div>
                         </div>
                     </div>
                 </div>
@@ -122,13 +133,13 @@
                     <div>
                         <p>HTML</p>
                         <div class="progress-bar">
-                            <div class="progress" style="width: 50%;"></div>
+                            <div class="progress" style="width: 70%;"></div>
                         </div>
                     </div>
                     <div>
                         <p>JavaScript</p>
                         <div class="progress-bar">
-                            <div class="progress" style="width: 50%;"></div>
+                            <div class="progress" style="width: 40%;"></div>
                         </div>
                     </div>
                 </div>
@@ -141,20 +152,51 @@
                         <div class="progress-bar">
                             <div class="progress" style="width: 50%;"></div>
                         </div>
+
+                        <div>
+                            <p>English</p>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 80%;"></div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
     </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Contact</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+
+                </div>
+            </div>
+
+            <div class="skill-card">
+
+                <div class="social-links">
+                    <a href="#" title="GitHub">GH</a>
+                    <a href="#" title="LinkedIn">LI</a>
+                    <p>dav.sl.dev@gmail.com</p>
+                </div>
+                <div>
+                   
+                </div>
+            </div>
+    </section>
+
+
+
 
 
     <!-- Footer -->
     <footer>
         <div class="container">
-            <div class="social-links">
-                <a href="#" title="GitHub">GH</a>
-                <a href="#" title="LinkedIn">LI</a>
-            </div>
             <p class="copyright">&copy; 2025 Esteban. All Rights Reserved.</p>
         </div>
     </footer>

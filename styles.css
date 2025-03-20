@@ -82,7 +82,7 @@ nav ul li a:hover {
 .hero {
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 80vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -203,30 +203,27 @@ section {
 }
 
 .about-content {
-    grid-template-columns: 1fr 2fr;
-    gap: 2rem;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
+    gap: 2rem;
+}
+
+.about-img, .about-text {
+    flex: 1; /* Ambos ocupan la misma cantidad de espacio */
 }
 
 .about-img {
     position: relative;
+    height: 40%;
+    width: 40%;
 }
 
-.about-img::before {
-    content: "";
-    position: absolute;
-    top: -20px;
-    left: -20px;
-    width: 60%;
-    height: 60%;
-    border: 5px solid var(--primary);
-    z-index: -1;
-}
 
 .about-img img {
-    width: 100%;
-    border-radius: 5px;
+    width: 50%;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 0 100px 0 100px;
 }
 
 .about-text h3 {
