@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Esteban Portfolio</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    
+
 </head>
 
 <body>
@@ -27,14 +29,14 @@
             </nav>
         </div>
     </header>
-
+    
     <!-- Hero Section -->
     <section class="hero" id="home">
         <video autoplay muted loop id="hero-video">
             <source src="/assets/Binary-background.mp4" type="video/mp4">
         </video>
         <div class="container hero-content">
-            <h1>print("Hello <span style="color: var(--accent);">Friend</span>")</h1>
+            <h1>Hello <span style="color: var(--accent);">Friend</span></h1>
             <h2>I'm a <span class="typed-text">Full Stack Java Developer</span></h2>
             <div>
                 <a href="#projects" class="btn">View My Work</a>
@@ -53,7 +55,7 @@
             </div>
             <div class="about-content">
                 <div class="about-img">
-                    <img src="/assets/profile-foto.jpg" alt="Esteban Santillan">
+                    <img src="/assets/cat.jpg" alt="Esteban Santillan">
                 </div>
                 <div class="about-text">
                     <p>Hello! I'm a Junior Java Full-Stack Developer. Passionate about technology and software
@@ -70,34 +72,27 @@
 
     <!-- Projects Section -->
     <section id="projects">
-        <div class="container">
+        <div class="container projects-content">
             <div class="section-title">
                 <h2>My Projects</h2>
+                
             </div>
-            <div class="projects-container">
-                <div class="project-card">
-                    <div class="project-img">
-                        <img src="/assets/proyecto-estudiante.png" alt="Project 1">
-                    </div>
-                    <div class="project-content">
-                        <h3>El Estudiante</h3>
-                        <p>I developed a modern and functional website for a restaurant that needed an attractive
-                            digital presence.</p>
-                        <div class="project-tags">
-                            <span class="project-tag">Responsive Design</span>
-                            <span class="project-tag">Interactive Menu</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="#">Live Demo</a>
-                            <a href="#">GitHub</a>
-                        </div>
-                    </div>
+            <h3 class="titulo-proyectos">El Estudiante</h3>
+            <div class="wrapper">
+                
+                <i id="left" class="fa-solid fa-angle-left"></i>
+                <div class="carousel">
+                    <img src="/assets/proyecto-estudiante-1.png" alt="img" draggable="false">
+                    <img src="/assets/proyecto-estudiante-2.png" alt="img" draggable="false">
+                    <img src="/assets/proyecto-estudiante-3.png" alt="img" draggable="false">
+                    <img src="/assets/proyecto-estudiante-1.png" alt="img" draggable="false">
+                    <img src="/assets/proyecto-estudiante-2.png" alt="img" draggable="false">
+                    <img src="/assets/proyecto-estudiante-3.png" alt="img" draggable="false">
                 </div>
+                <i id="right" class="fa-solid fa-angle-right"></i>
             </div>
-        </div>
     </section>
-
-
+    
     <!-- Skills Section -->
     <section id="skills">
         <div class="container">
@@ -144,7 +139,6 @@
                     </div>
                 </div>
 
-
                 <div class="skill-card">
                     <h3>DevOps & Tools</h3>
                     <div>
@@ -185,14 +179,10 @@
                     <p>dav.sl.dev@gmail.com</p>
                 </div>
                 <div>
-                   
+
                 </div>
             </div>
     </section>
-
-
-
-
 
     <!-- Footer -->
     <footer>
@@ -201,7 +191,7 @@
         </div>
     </footer>
 
-
+    <script src="script.js"></script>
 </body>
 
 </html>
