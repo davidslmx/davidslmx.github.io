@@ -4,184 +4,186 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Esteban Portfolio</title>
+    <title>David Esteban | Developer</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
-    
+
 
 </head>
 
 <body>
+
     <!-- Header -->
-    <header>
+    <header class="header-lateral">
         <div class="container header-content">
-            <div class="logo">
+            <!--
+                <div class="logo">
                 <div>Esteban <span>Santillan</span></div>
-            </div>
+            </div> 
+            -->
             <nav>
                 <ul>
                     <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
                     <li><a href="#projects">Projects</a></li>
+                    <li><a href="#about">About</a></li>
                     <li><a href="#skills">Skills</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
         </div>
     </header>
-    
-    <!-- Hero Section -->
-    <section class="hero" id="home">
-        <video autoplay muted loop id="hero-video">
-            <source src="/assets/Binary-background.mp4" type="video/mp4">
-        </video>
-        <div class="container hero-content">
-            <h1>Hello <span style="color: var(--accent);">Friend</span></h1>
-            <h2>I'm a <span class="typed-text">Full Stack Java Developer</span></h2>
-            <div>
-                <a href="#projects" class="btn">View My Work</a>
-            </div>
-        </div>
-    </section>
 
+    <section class="mega-section">
 
-
-
-    <!-- About Section -->
-    <section id="about">
-        <div class="container">
-            <div class="section-title">
-                <h2>About Me</h2>
-            </div>
-            <div class="about-content">
-                <div class="about-img">
-                    <img src="/assets/cat.jpg" alt="Esteban Santillan">
-                </div>
-                <div class="about-text">
-                    <p>Hello! I'm a Junior Java Full-Stack Developer. Passionate about technology and software
-                        development, with previous experience working with computers in technical environments, which
-                        has allowed me to develop problem-solving skills and proficiency in hardware/software
-                        management.</p>
-                    <p>Motivated by continuous learning, I seek opportunities to apply and enhance my development
-                        knowledge.</p>
-                    <p>I am characterized by my adaptability, teamwork skills, and commitment to growth.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Projects Section -->
-    <section id="projects">
-        <div class="container projects-content">
-            <div class="section-title">
-                <h2>My Projects</h2>
-                
-            </div>
-            <h3 class="titulo-proyectos">El Estudiante</h3>
-            <div class="wrapper">
-                
-                <i id="left" class="fa-solid fa-angle-left"></i>
-                <div class="carousel">
-                    <img src="/assets/proyecto-estudiante-1.png" alt="img" draggable="false">
-                    <img src="/assets/proyecto-estudiante-2.png" alt="img" draggable="false">
-                    <img src="/assets/proyecto-estudiante-3.png" alt="img" draggable="false">
-                    <img src="/assets/proyecto-estudiante-1.png" alt="img" draggable="false">
-                    <img src="/assets/proyecto-estudiante-2.png" alt="img" draggable="false">
-                    <img src="/assets/proyecto-estudiante-3.png" alt="img" draggable="false">
-                </div>
-                <i id="right" class="fa-solid fa-angle-right"></i>
-            </div>
-    </section>
-    
-    <!-- Skills Section -->
-    <section id="skills">
-        <div class="container">
-            <div class="section-title">
-                <h2>My Skills</h2>
-            </div>
-
-            <div class="skills-container">
-                <div class="skill-card">
-                    <h3>Backend Development</h3>
-                    <div>
-
-                        <div>
-                            <p>Java</p>
-                            <div class="progress-bar">
-                                <div class="progress" style="width: 50%;"></div>
-                            </div>
-                        </div>
-                        <p>Node.js</p>
-                        <div class="progress-bar">
-                            <div class="progress" style="width: 70%;"></div>
-                        </div>
-                    </div>
-                    <div>
-                        <p>SQL/NoSQL</p>
-                        <div class="progress-bar">
-                            <div class="progress" style="width: 30%;"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="skill-card">
-                    <h3>Frontend Development</h3>
-                    <div>
-                        <p>HTML</p>
-                        <div class="progress-bar">
-                            <div class="progress" style="width: 70%;"></div>
-                        </div>
-                    </div>
-                    <div>
-                        <p>JavaScript</p>
-                        <div class="progress-bar">
-                            <div class="progress" style="width: 40%;"></div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="skill-card">
-                    <h3>DevOps & Tools</h3>
-                    <div>
-                        <p>Git/GitHub</p>
-                        <div class="progress-bar">
-                            <div class="progress" style="width: 50%;"></div>
-                        </div>
-
-                        <div>
-                            <p>English</p>
-                            <div class="progress-bar">
-                                <div class="progress" style="width: 80%;"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-    </section>
-
-
-    <!-- Contact Section -->
-    <section id="contact">
-        <div class="container">
-            <div class="section-title">
-                <h2>Contact</h2>
-            </div>
-            <div class="about-content">
-                <div class="about-text">
-
-                </div>
-            </div>
-
-            <div class="skill-card">
-
-                <div class="social-links">
-                    <a href="#" title="GitHub">GH</a>
-                    <a href="#" title="LinkedIn">LI</a>
-                    <p>dav.sl.dev@gmail.com</p>
-                </div>
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <video autoplay muted loop id="hero-video">
+                <source src="/assets/Binary-background.mp4" type="video/mp4">
+            </video>
+            <div class="container hero-content">
+                <h1>Hello <span style="color: var(--accent);">World</span></h1>
+                <h2>I'm a <span class="typed-text">Full Stack Java Developer</span></h2>
                 <div>
-
+                    <a href="#projects" class="btn">View My Work</a>
                 </div>
             </div>
+        </section>
+
+        <!-- Projects Section -->
+
+        <div class="container-my-projects">
+            <div class="section-title">
+                <h2>01. MY PROJECTS</h2>
+            </div>
+        </div>
+
+        <section id="projects">
+            <div class="container projects-content">
+                <div class="wrapper">
+                    <i id="left" class="fa-solid fa-angle-left"></i>
+                    <div class="carousel">
+                        <img src="/assets/proyecto-estudiante-1.png" alt="img" draggable="false">
+                        <img src="/assets/proyecto-estudiante-2.png" alt="img" draggable="false">
+                        <img src="/assets/proyecto-estudiante-3.png" alt="img" draggable="false">
+                        <img src="/assets/proyecto-estudiante-4.png" alt="img" draggable="false">
+                    </div>
+                    <i id="right" class="fa-solid fa-angle-right"></i>
+                </div>
+            </div>
+        </section>
+
+        <div class="margin-section container">
+            <div class="projects-info">
+                <h3 class="projects-title">EL ESTUDIANTE</h3>
+                <h4 class="projects-title-description"><span style="color: var(--accent);">FRONT END DESIGN</span>
+                </h4>
+                <P class="projects-info">Structured using HTML, CSS, and JavaScript, ensuring a responsive design
+                    for seamless viewind on all devices. The result is an engaging website that effectively
+                    represents the restaurant online.</P>
+            </div>
+        </div>
+
+
+
+        <!-- About Section -->
+        <section class="margin-section" id="about">
+            <div class="container">
+                <div class="section-title">
+                    <h2>02. ABOUT ME</h2>
+                </div>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>Hello! I'm a Junior Java Full-Stack Developer. Passionate about technology and software
+                            development, with previous experience working with computers in technical environments,
+                            which
+                            has allowed me to develop problem-solving skills and proficiency in hardware/software
+                            management.</p>
+                        <p>Motivated by continuous learning, I seek opportunities to apply and enhance my development
+                            knowledge.</p>
+                        <p>I am characterized by my adaptability, teamwork skills, and commitment to growth.</p>
+                    </div>
+
+                    <div class="about-img">
+                        <img src="/assets/cat.jpg" alt="Esteban Santillan">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <div class="container">
+                <div class="section-title">
+                    <h2>03. SKILLS</h2>
+                </div>
+            </div>
+        </section>
+        <section class="margin-section" id="skills">
+            <div class="container">
+                <div class="skills-container fade-in">
+                    <div class="skill-category">
+                        <h3>KEY SKILLS</h3>
+                        <div class="skill-list">
+                            <div class="skill-item">Java</div>
+                            <div class="skill-item">JavaScript</div>
+                            <div class="skill-item">CSS</div>
+                            <div class="skill-item">HTML</div>
+                            <div class="skill-item">Python</div>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>SOFT SKILLS</h3>
+                        <div class="skill-list">
+                            <div class="skill-item">Teamwork</div>
+                            <div class="skill-item">Creativity</div>
+                            <div class="skill-item">Analytical Thinking</div>
+                            <div class="skill-item">Attention to Detail</div>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>TOOLS</h3>
+                        <div class="skill-list">
+                            <div class="skill-item">Git & GitHub</div>
+                            <div class="skill-item">Jira</div>
+                            <div class="skill-item">Figma</div>
+                            <div class="skill-item">English</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- Contact Section -->
+        <section id="contact" class="container">
+            <div class="section-title">
+                <h2>04. GET IN TOUCH</h2>
+            </div>
+            <div class="container" style="padding-bottom: 4rem;">
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" class="form-control" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
     </section>
 
     <!-- Footer -->
